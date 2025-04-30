@@ -1,6 +1,20 @@
-# Aerial Image Segmentation
+# Satelite Image Segmentation
 
 This repository offers a focused demonstration of binary road segmentation from aerial (satellite) imagery, implemented entirely in a Jupyter Notebook using PyTorch and Albumentations. By following this example, users can understand how to prepare data, apply advanced augmentations, perform inference with a trained segmentation model, and visualize results—all within a self-contained environment.
+
+**Dataset**: https://www.cs.toronto.edu/~vmnih/data/
+
+From this dataset 200 images and its masks were taken and converted it .png file. 
+
+**Citation**:
+```
+@phdthesis{MnihThesis,
+    author = {Volodymyr Mnih},
+    title = {Machine Learning for Aerial Image Labeling},
+    school = {University of Toronto},
+    year = {2013}
+}
+```
 
 ## Repository Contents
 
@@ -103,3 +117,4 @@ This utility promotes consistent visualization without manual axis adjustments.
 3. **Arrange Data** under ``data_dir`` as described above and update paths in the notebook.
 4. **Launch Jupyter Notebook** and open ``Aerial_image_segmentation.ipynb``.
 5. **Run All Cells** Sequentially to load data, perform inference with ``best_model.pt``, and visualize segmentation outputs.
+
